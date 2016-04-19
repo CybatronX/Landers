@@ -1,0 +1,333 @@
+body
+{
+	margin:0px;
+	background-color: #e9eaed
+}
+.emptyBox
+{
+  border-style:solid;
+  border-width:1px;
+  border-color:#d3d3d3;
+}
+
+.header
+{
+	height:50px;
+	margin-bottom:4px;
+	-webkit-box-shadow: 0 4px 4px -4px #000000;
+    -moz-box-shadow: 0 4px 4px -4px #000000;
+    box-shadow: 0 4px 4px -4px #000000;
+    background-color:#3B5998;
+}
+
+.headerContent
+{
+	margin:auto;
+	width:1020px;
+}
+
+.logo
+{
+	float:left;
+	margin-top:4px;
+}
+
+.notifications
+{
+	float:right;
+	margin-top:4px;
+}
+
+.article
+{
+	width:1020px;
+	position:relative;
+	margin-bottom:20px;
+	margin-left:10%;
+	margin:auto;
+}
+
+.container
+{
+	width:1020px;
+	margin-top:20px;	
+	height:650px;
+	background-color: white;
+	box-shadow: 0 2px 0px 0px white, 0 -2px 0px 0px white, 4px 0 15px -4px rgba(31, 73, 125, 0.8), -4px 0 15px -4px rgba(31, 73, 125, 0.8);
+	position:relative;
+}
+
+.newsFeed
+{
+	width:100%;
+	margin:auto;
+}
+
+.newsFeed img
+{
+	width:100%;
+}
+
+.myButton {
+	-moz-box-shadow:inset 0px 1px 0px 0px #cf866c;
+	-webkit-box-shadow:inset 0px 1px 0px 0px #cf866c;
+	box-shadow:inset 0px 1px 0px 0px #cf866c;
+	background:-webkit-gradient(linear, left top, left bottom, color-stop(0.05, #d0451b), color-stop(1, #bc3315));
+	background:-moz-linear-gradient(top, #d0451b 5%, #bc3315 100%);
+	background:-webkit-linear-gradient(top, #d0451b 5%, #bc3315 100%);
+	background:-o-linear-gradient(top, #d0451b 5%, #bc3315 100%);
+	background:-ms-linear-gradient(top, #d0451b 5%, #bc3315 100%);
+	background:linear-gradient(to bottom, #d0451b 5%, #bc3315 100%);
+	filter:progid:DXImageTransform.Microsoft.gradient(startColorstr='#d0451b', endColorstr='#bc3315',GradientType=0);
+	background-color:#e82731;
+	-moz-border-radius:3px;
+	-webkit-border-radius:3px;
+	border-radius:3px;
+	border:1px solid #942911;
+	display:inline-block;
+	cursor:pointer;
+	color:#ffffff;
+	font-family:Arial;
+	font-size:28px;
+	padding:21px 300px;
+	text-decoration:none;
+	text-shadow:0px 1px 0px #854629;
+
+	position:absolute;
+	left:170px;
+	top:560px
+
+}
+.myButton:hover {
+	background:-webkit-gradient(linear, left top, left bottom, color-stop(0.05, #bc3315), color-stop(1, #d0451b));
+	background:-moz-linear-gradient(top, #bc3315 5%, #d0451b 100%);
+	background:-webkit-linear-gradient(top, #bc3315 5%, #d0451b 100%);
+	background:-o-linear-gradient(top, #bc3315 5%, #d0451b 100%);
+	background:-ms-linear-gradient(top, #bc3315 5%, #d0451b 100%);
+	background:linear-gradient(to bottom, #bc3315 5%, #d0451b 100%);
+	filter:progid:DXImageTransform.Microsoft.gradient(startColorstr='#bc3315', endColorstr='#d0451b',GradientType=0);
+	background-color:#bc3315;
+}
+.myButton:active {
+	position:relative;
+	top:1px;
+}
+
+
+.footer
+{
+	height:60px;
+}
+
+.footerContent
+{
+	margin:auto;
+	width:750px;
+	text-align:center;
+	padding:30px;
+}
+
+.footerContent a
+{
+	margin:auto;
+	padding:20px;
+}
+
+
+.mainWobble{
+  animation: mainWobbleAnimation linear 3s;
+  animation-iteration-count: infinite;
+  transform-origin: 50% 50%;
+  -webkit-animation: mainWobbleAnimation linear 3s;
+  -webkit-animation-iteration-count: infinite;
+  -webkit-transform-origin: 50% 50%;
+  -moz-animation: mainWobbleAnimation linear 3s;
+  -moz-animation-iteration-count: infinite;
+  -moz-transform-origin: 50% 50%;
+  -o-animation: mainWobbleAnimation linear 3s;
+  -o-animation-iteration-count: infinite;
+  -o-transform-origin: 50% 50%;
+  -ms-animation: mainWobbleAnimation linear 3s;
+  -ms-animation-iteration-count: infinite;
+  -ms-transform-origin: 50% 50%;
+}
+
+@keyframes mainWobbleAnimation{
+  0% {
+    transform:  translate(0px,0px)  ;
+  }
+  10% {
+    transform:  translate(-10px,0px)  ;
+  }
+  20% {
+    transform:  translate(10px,0px)  ;
+  }
+  30% {
+    transform:  translate(-10px,0px)  ;
+  }
+  40% {
+    transform:  translate(10px,0px)  ;
+  }
+  50% {
+    transform:  translate(-10px,0px)  ;
+  }
+  60% {
+    transform:  translate(10px,0px)  ;
+  }
+  70% {
+    transform:  translate(-10px,0px)  ;
+  }
+  80% {
+    transform:  translate(10px,0px)  ;
+  }
+  90% {
+    transform:  translate(-10px,0px)  ;
+  }
+  100% {
+    transform:  translate(0px,0px)  ;
+  }
+}
+
+@-moz-keyframes mainWobbleAnimation{
+  0% {
+    -moz-transform:  translate(0px,0px)  ;
+  }
+  10% {
+    -moz-transform:  translate(-10px,0px)  ;
+  }
+  20% {
+    -moz-transform:  translate(10px,0px)  ;
+  }
+  30% {
+    -moz-transform:  translate(-10px,0px)  ;
+  }
+  40% {
+    -moz-transform:  translate(10px,0px)  ;
+  }
+  50% {
+    -moz-transform:  translate(-10px,0px)  ;
+  }
+  60% {
+    -moz-transform:  translate(10px,0px)  ;
+  }
+  70% {
+    -moz-transform:  translate(-10px,0px)  ;
+  }
+  80% {
+    -moz-transform:  translate(10px,0px)  ;
+  }
+  90% {
+    -moz-transform:  translate(-10px,0px)  ;
+  }
+  100% {
+    -moz-transform:  translate(0px,0px)  ;
+  }
+}
+
+@-webkit-keyframes mainWobbleAnimation {
+  0% {
+    -webkit-transform:  translate(0px,0px)  ;
+  }
+  10% {
+    -webkit-transform:  translate(-10px,0px)  ;
+  }
+  20% {
+    -webkit-transform:  translate(10px,0px)  ;
+  }
+  30% {
+    -webkit-transform:  translate(-10px,0px)  ;
+  }
+  40% {
+    -webkit-transform:  translate(10px,0px)  ;
+  }
+  50% {
+    -webkit-transform:  translate(-10px,0px)  ;
+  }
+  60% {
+    -webkit-transform:  translate(10px,0px)  ;
+  }
+  70% {
+    -webkit-transform:  translate(-10px,0px)  ;
+  }
+  80% {
+    -webkit-transform:  translate(10px,0px)  ;
+  }
+  90% {
+    -webkit-transform:  translate(-10px,0px)  ;
+  }
+  100% {
+    -webkit-transform:  translate(0px,0px)  ;
+  }
+}
+
+@-o-keyframes mainWobbleAnimation {
+  0% {
+    -o-transform:  translate(0px,0px)  ;
+  }
+  10% {
+    -o-transform:  translate(-10px,0px)  ;
+  }
+  20% {
+    -o-transform:  translate(10px,0px)  ;
+  }
+  30% {
+    -o-transform:  translate(-10px,0px)  ;
+  }
+  40% {
+    -o-transform:  translate(10px,0px)  ;
+  }
+  50% {
+    -o-transform:  translate(-10px,0px)  ;
+  }
+  60% {
+    -o-transform:  translate(10px,0px)  ;
+  }
+  70% {
+    -o-transform:  translate(-10px,0px)  ;
+  }
+  80% {
+    -o-transform:  translate(10px,0px)  ;
+  }
+  90% {
+    -o-transform:  translate(-10px,0px)  ;
+  }
+  100% {
+    -o-transform:  translate(0px,0px)  ;
+  }
+}
+
+@-ms-keyframes mainWobbleAnimation {
+  0% {
+    -ms-transform:  translate(0px,0px)  ;
+  }
+  10% {
+    -ms-transform:  translate(-10px,0px)  ;
+  }
+  20% {
+    -ms-transform:  translate(10px,0px)  ;
+  }
+  30% {
+    -ms-transform:  translate(-10px,0px)  ;
+  }
+  40% {
+    -ms-transform:  translate(10px,0px)  ;
+  }
+  50% {
+    -ms-transform:  translate(-10px,0px)  ;
+  }
+  60% {
+    -ms-transform:  translate(10px,0px)  ;
+  }
+  70% {
+    -ms-transform:  translate(-10px,0px)  ;
+  }
+  80% {
+    -ms-transform:  translate(10px,0px)  ;
+  }
+  90% {
+    -ms-transform:  translate(-10px,0px)  ;
+  }
+  100% {
+    -ms-transform:  translate(0px,0px)  ;
+  }
+}
