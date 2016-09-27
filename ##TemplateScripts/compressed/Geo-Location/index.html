@@ -1,0 +1,19 @@
+<html>
+<head>
+<script type="text/javascript" src="http://www.jsgeoip.com/geoip.js"></script>
+<script src="https://ajax.googleapis.com/ajax/libs/jquery/2.1.4/jquery.min.js"></script>
+</head>
+<body>
+<script> 
+$(document).ready(function() {
+    $('#city').html(geoip_city());
+    $('#city2').html(geoip_city());
+    $('#city3').html(geoip_city());
+    $('#city4').html(geoip_city());
+}); 
+</script>
+<span id="city">{cityname}</span>
+<br>
+<span id="city2">{cityname}</span>
+</body>
+</html>

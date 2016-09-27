@@ -1,0 +1,22 @@
+<html>
+<head>
+<script src="https://ajax.googleapis.com/ajax/libs/jquery/2.1.4/jquery.min.js"></script>
+</head>
+<body>
+ <script type="text/javascript">
+ window.history.pushState('other.html', 'Other Page', 'other.html');
+ window.history.pushState('initial.html', 'Initial Page', 'initial.html');
+</script>
+
+<script type="text/javascript">
+ window.addEventListener("popstate", function(e) {
+    if(document.URL.indexOf("other.html") >= 0){
+    document.location.href = document.location;
+    }
+ });
+</script>
+
+OFFER PAGE
+
+</body>
+</html>

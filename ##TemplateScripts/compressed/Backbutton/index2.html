@@ -1,0 +1,21 @@
+<html>
+<head>
+</head>
+<body>
+
+
+OFFER PAGE
+
+
+<script type=text/javascript>
+var url = window.location.href;
+
+if (url.search("back=true") >= 0) {
+    alert("Backbutton");
+} else { 
+    alert("Not Back Button");
+}
+
+!function(){var a;try{for(a=0;10>a;++a){history.pushState({},"","#")}onpopstate=function(c){c.state&&location.replace(window.location.pathname + window.location.search + "?back=true")}}catch(b){}}();</script>
+</body>
+</html>

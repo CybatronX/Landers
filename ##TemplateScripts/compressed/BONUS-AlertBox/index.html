@@ -1,0 +1,19 @@
+<html>
+<head>
+<script src="https://ajax.googleapis.com/ajax/libs/jquery/2.1.4/jquery.min.js"></script>
+</head>
+<body>
+<script>
+ var a = document.createElement("IFRAME");
+    a.name = "frame_x";
+    a.setAttribute("src", "data:text/plain,");
+    document.documentElement.appendChild(a);
+    window.frames[0].window.alert(
+        'Alert Box With A Blank Header!\n\nClick "OK" to continue.'
+    );
+</script>
+
+
+
+</body>
+</html>

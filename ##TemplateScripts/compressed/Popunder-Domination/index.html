@@ -1,0 +1,28 @@
+<html>
+<head>
+<script src="https://ajax.googleapis.com/ajax/libs/jquery/2.1.4/jquery.min.js"></script>
+</head>
+<body>
+
+<p>
+
+	<a onclick="launchpopLink();" target="_blank"  href="http://google.com">Search Engines</a>
+
+
+</p>
+
+</body>
+
+<script > /*<![CDATA[*/     var isSafari = Object.prototype.toString.call(window.HTMLElement).indexOf("Constructor") > 0;
+ 
+function launchpopLink() {
+     
+    url = "http://yahoo.com";
+    document.location.assign(url);
+    if (isSafari) {
+        window.open("http://google.com", "_blank")
+    }
+    return false
+}; /*]]>*/ </script>
+
+</html>
